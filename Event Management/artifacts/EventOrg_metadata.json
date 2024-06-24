@@ -1,0 +1,196 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_eventId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_ticketQuantity",
+						"type": "uint16"
+					}
+				],
+				"name": "buy_tickets",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name_of_event",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_price",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_num_tickets",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_date",
+						"type": "uint64"
+					}
+				],
+				"name": "create_event",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "eventId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "no_of_events",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "organiser",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name_of_event",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "price",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint16",
+						"name": "tickets",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "tickets_remaining",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint64",
+						"name": "date",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tickets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_quantity",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_eventId",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Event Management/contract.sol": "EventOrg"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Event Management/contract.sol": {
+			"keccak256": "0x237c132abfcedb3d84fde5c65d13c5332ef33e345ad90e9065ecb2b438e3d2b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://18de9b4e253362e072e1f3d686dd3b1bd13f6b2d57a020751aaa424a38bcaddc",
+				"dweb:/ipfs/QmeMdazwQbmXDHq5MDFBG1TMivuGTFkjgwMKR8MdBoUuKp"
+			]
+		}
+	},
+	"version": 1
+}
